@@ -9,6 +9,7 @@ Each URI from the dataset was processed individually using a PowerShell loop, an
 To avoid overwhelming web archives and to prevent connection errors, a delay of 20 seconds was added between each request. This significantly increased execution time but ensured more reliable results.
 
 Some requests resulted in errors such as timeouts or returned empty results. This is expected because not all URI-Rs are archived, and some services may fail to respond. In total, TimeMaps were successfully generated for the majority of the dataset.
+A total of 499 URI-Rs were processed, with most producing valid TimeMaps.
 
 ## Q2 – Memento Analysis
 
@@ -21,6 +22,8 @@ The number of mementos for each URI-R was extracted and grouped into bins.
 | 11–20 | 82 |
 | 21–30 | 43 |
 | 31+ | 187 |
+
+A total of 499 URI-Rs were analyzed.
 
 Most URI-Rs had either a very small number of mementos or a very large number. Specifically, 158 URI-Rs had between 1–10 mementos, while 187 URI-Rs had more than 31 mementos.
 
